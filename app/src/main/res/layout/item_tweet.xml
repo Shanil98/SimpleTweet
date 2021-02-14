@@ -37,4 +37,14 @@
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="This is the 2nd text view" />
 
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        tools:text="8h" />
+
 </RelativeLayout>
